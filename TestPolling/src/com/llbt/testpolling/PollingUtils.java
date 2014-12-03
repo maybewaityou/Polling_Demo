@@ -65,7 +65,6 @@ public class PollingUtils {
 	 */
 	public static void stopPollingService(Context context, Class<?> cls,
 			String action) {
-
 		AlarmManager manager = (AlarmManager) context
 				.getSystemService(Context.ALARM_SERVICE);
 		Intent intent = new Intent(context, cls);
