@@ -57,6 +57,7 @@ public class PollingService extends Service {
 	}
 
 	// 弹出Notification
+	@SuppressWarnings("deprecation")
 	private void showNotification() {
 		mNotification.when = System.currentTimeMillis();
 		// 点击通知栏，进入相应的页面

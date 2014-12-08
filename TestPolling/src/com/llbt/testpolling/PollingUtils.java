@@ -30,8 +30,11 @@ public class PollingUtils {
 	 * @author MeePwn
 	 * @DateTime 2014-12-3 下午4:39:54
 	 * @param context
+	 *            上下文
 	 * @param seconds
+	 *            轮询时间间隔（单位为s）
 	 * @param cls
+	 *            轮询服务
 	 * @param action
 	 */
 	public static void startPollingService(Context context, int seconds,
@@ -60,7 +63,9 @@ public class PollingUtils {
 	 * @author MeePwn
 	 * @DateTime 2014-12-3 下午4:39:41
 	 * @param context
+	 *            上下文
 	 * @param cls
+	 *            轮询服务
 	 * @param action
 	 */
 	public static void stopPollingService(Context context, Class<?> cls,
